@@ -1,9 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+  * {
+    margin: 0;
+  padding: 0;
+  }
+
   body {
     margin-top: 50px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
   }
 `;
